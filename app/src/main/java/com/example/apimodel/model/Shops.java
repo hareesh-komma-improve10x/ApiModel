@@ -42,5 +42,15 @@ public class Shops {
     private String currentTotalDiscounts;
     @SerializedName("current_total_discounts_set")
     private Set currentTotalDiscountsSet;
+    @SerializedName("current_total_duties_set")
+    private String currentTotalDutiesSet;
+    @SerializedName("current_total_price")
+    private String currentTotalPrice;
+    @SerializedName("current_total_price_set")
+    private Set currentTotalPriceSet;
+    @SerializedName("current_total_tax")
+    private String currentTotalTax;
+    @SerializedName("current_total_tax_set")
+    private Set currentTotalTaxSet;
 
 }
