@@ -1,5 +1,6 @@
 package com.example.apimodel.model;
 
+import com.example.apimodel.LineItems;
 import com.google.gson.annotations.SerializedName;
 
 import java.util.ArrayList;
@@ -225,4 +226,7 @@ public class Shops {
 
     @SerializedName("fulfillments")
     private ArrayList<String> fulfillments;
+
+    @SerializedName("line_items")
+    private ArrayList<LineItems> lineItems;
 }
